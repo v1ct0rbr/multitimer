@@ -1,0 +1,23 @@
+.title {
+	font-family: 'Coda Caption', sans-serif;
+}
+
+.table{
+  tr{
+    td{
+      align-content: center;
+      *{
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.listGroupItem {
+	display: flex !important;
+	justify-content: space-between;
+
+  &.active{
+    z-index: 0 !important;
+  }
+}

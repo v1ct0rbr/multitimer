@@ -1,0 +1,26 @@
+.container {
+	min-height: 100vh;
+	// padding: 0 0.5rem;
+	display: flex;
+	justify-content: center;
+	// align-items: center;
+	height: 100vh;
+}
+
+.main {
+	width: auto;
+	// padding: 5rem 0;
+	// background-color: #ccc;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	// justify-content: center;
+	padding: 0rem;
+	.content {
+		padding: 12.5% 2rem 0.5rem 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}

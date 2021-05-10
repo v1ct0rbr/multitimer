@@ -1,0 +1,46 @@
+@keyframes blinker {
+	50% {
+		opacity: 0.5;
+	}
+}
+
+.cardTitle{
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 2rem;
+}
+
+.listGroupItem {
+	display: flex !important;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.actionButtons {
+	// display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.clock {
+	font-family: 'digital-dream', Arial, Helvetica, sans-serif;
+	
+	&.clockMain{
+		font-size: 50pt;
+		font-style: initial;
+		font-weight: bolder;
+	}
+
+	&.textDanger {
+		color: #d62626;
+		animation: blinker 0.7s linear infinite;
+	}
+	&.textWarning {
+		color: #ffc700;
+	}
+}
+
+.ReactCollapse--collapse {
+	transition: height 500ms;
+  }

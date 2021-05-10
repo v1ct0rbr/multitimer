@@ -1,0 +1,38 @@
+.sideBar {
+	background: var(--menu-color) !important;
+	.logo {
+		padding: 0.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.title {
+			margin-left: 0.2rem;
+		}
+	}
+	.sideBarHeader {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.3rem;
+		border-bottom: none !important;
+		.sideBarTitle {
+			padding: 24px;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 14px;
+			letter-spacing: 1px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+	.sideBarFooter {
+		padding: 1rem;
+		text-align: center;
+		.sidebar-btn {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

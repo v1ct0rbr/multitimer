@@ -1,0 +1,13 @@
+.navbar {
+	background: var(--menu-color) !important;
+	padding-left: 1rem;
+	display: flex;
+	// height: 4rem;
+
+	.buttonToggler {
+		display: none;
+		@media screen and (max-width: 768px) {
+			display: block;
+		}
+	}
+}
