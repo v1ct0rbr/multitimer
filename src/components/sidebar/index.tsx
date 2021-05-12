@@ -107,15 +107,7 @@ export default function SideBar(props: SideBarProps) {
 							padding: '20px 24px',
 						}}
 					>
-						<a
-							href="https://www.linkedin.com/in/victor-queiroga/"
-							target="_blank"
-							className="sidebar-btn"
-							rel="noopener noreferrer"
-						>
-							<Icon type="fab" icon="linkedin" />
-							<span> Linked IN</span>
-						</a>
+					
 					</div>
 				</SidebarFooter>
 			</ProSidebar>
