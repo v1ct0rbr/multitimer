@@ -25,5 +25,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployed on Vercel
 
-<a href="multitimer.vercel.app" target="_blank">Link do app</a>
+<a href="https://multitimer.vercel.app/" target="_blank">Link do app</a>
 
